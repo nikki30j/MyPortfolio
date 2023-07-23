@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 2%;
+}
+
+/* Global Classes Stylings */
+
+.flex {
+  display: flex;
+}
+  
+.just-cntr {
+  justify-content: center;
+}
+
+.just-even {
+  justify-content: space-evenly;
+}
+.just-btwn {
+  justify-content: space-between;
+}
+.just-arnd {
+  justify-content: space-around;
+}
+.align-cntr {
+  align-items: center;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/*header styling*/
+
+header {
+  width: 100%;
+  padding: 2vw 0;
+  background-color: #081b29;
+  color: white;
+}
+header nav.navbar ul {
+  list-style: none;
+}
+
+header nav.navbar ul li a {
+  margin: 1rem;
+  font-family: Popin, sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+.brandLogo {
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+.brandLogo span {
+  color: darkgoldenrod;
+  font-family: "bold";
+  font-size: 2rem;
+  font-weight: bold;
+}
+/*hero*/
+
+.heroBox {
+  background-image: url("/assets/images/yellow_flower.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+  width: 100%;
+}
+.heroCard {
+  background-color: #081b29;;
+  opacity: 0.9;
+  margin: 0vh 3vh;
+}
+
+.intro {
+  width: 70%;
+  padding-left: 10%;
+  padding: 2%;
+  margin-left: 12vh;
+}
+.intro h4 {
+  color: white;
+  margin-bottom: 5%;
+}
+.intro .name{
+  font-size: 2rem;
+}
+.developer {
+  font-size: 3rem;
+  letter-spacing: 0.8rem;
+  font-weight: 300;
+  color: rgb(212, 191, 85);
+  line-height: 3rem;
+}
+.passionate span {
+  color: #081b29;;
+}
+.image img{
+  width: 50%;
+  height: 90%;
+  border-radius: 50%;
+  margin-left: 20vw;
+  margin-top: 1vh;
+}
+
+.contact img {
+  height: 10%;
+  width: 10%;
+  margin-top: 6vh;
+  border-radius: 10%;
+}
+
+/*about section*/
+.about {
+  background-color: #081b29;;
+  padding: 40px;
+  color: white;
+  margin-top: 5vh;
+}
+.about h1{
+  color: goldenrod;
+  text-align: center;
+  font-size: 2.3rem;
+
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.about h2 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: goldenrod;
+}
+
+.pAbout {
+  font-size: 1rem;
+  color: white;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #081b29;;
+  border-radius: 8px;
+  box-shadow: 1px 3px 5px rgba(174, 188, 51, 0.377);
+  padding: 20px;
+  flex-basis: calc(33.33% - 20px);
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card .pAbout {
+  font-size: 16px;
+}
+
+
+
+/* skill section */
+
+.skill{
+  text-align: center;
+  background-color: #081b29;
+}
+.skill h1{
+  color: #ededed;
+  font-size: 2.3rem;
+  font-weight: bolder;
+  margin-top: 5vh;
+}
+.skill h1 span{
+  color: darkgoldenrod;
+}
+.skill .images {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.skill .images img{
+  height: 100px;
+  margin: 20px;
+}
+/*project*/
+.project{
+  background-color: #081b29;
+}
+
+.projectTitle h1{
+  text-align: center;
+  color: goldenrod;
+  font-size: 2.3rem;
+  font-weight: bolder;
+  margin-top: 50px;
+  }
+.projectTitle h1 span{
+  color: goldenrod;
+    
+    }
+
+#project1 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+#project1 Img{
+padding-right: 100px;
+}
+#project1 img{
+  width: 500px;
+}
+
+.projectContent{
+  padding-left: 150px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+#project2 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.projectImg2{
+  padding-left: 100px;
+}
+#project2 img{
+  width: 500px;
+}
+
+.projectContent2{
+
+  padding-right: 150px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+
+#project3 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 100px;
+  background-color: #081b29;
+}
+.projectImg3{
+padding-right: 100px;
+}
+#project3 img{
+  width: 500px;
+}
+.projectContent3{
+  padding-left: 150px;
+  padding-right: 50px;
+  text-align: center;
+}
+.project h3{
+  color: goldenrod;
+  padding-top: 10px ;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.project p{
+  color: #ededed;
+  font-weight: 500;
+}
+
+
+
