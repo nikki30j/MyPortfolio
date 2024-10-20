@@ -103,9 +103,11 @@ header nav.navbar ul li a {
 .intro h4 {
   color: white;
   margin-bottom: 5%;
+  font-size: 1.5rem;
 }
 .intro .name {
-  font-size: 2rem;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
 }
 .developer {
   font-size: 3rem;
@@ -189,6 +191,7 @@ header nav.navbar ul li a {
 .skill {
   text-align: center;
   background-color: #081b29;
+  padding-top: 35px;
 }
 .skill h1 {
   color: #ededed;

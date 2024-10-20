@@ -18,12 +18,18 @@
             color: #ffffff;
             margin-bottom: 10px;
         }
+        h1{
+            color: goldenrod;
+        }
         
-        .project-title {
+        .project-title a{
             font-size: 1.5em;
             font-weight: bold;
             padding-left: 50px;
             color: goldenrod;
+        }
+        .projectTitle{
+            padding-top: 35px;
         }
         .project-details {
             color: #ffffff;
@@ -38,12 +44,16 @@
             margin-bottom: 8px;
             color: #ffffff;
         }
+        .brandLogo a{
+            text-decoration: none;
+            color: white;
+        }
     </style>
 
     <div class="container">
         <header class="flex just-btwn align-cntr">
             <div class="brandLogo">
-                <span>P</span>ortfolio
+                <a href="#"><span>P</span>ortfolio</a>
             </div>
             <nav class="navbar">
                 <ul class="flex just-btwn align-cntr">
@@ -51,6 +61,7 @@
                     <li><a href="#skill">Skill</a></li>
                     <li><a href="#project">Project</a></li>
                     <li><a href="#footer">Contact</a></li>
+                    <li><a href="./assets/NikkiKumari.pdf" download>Download Resume</a></li>
                 </ul>
             </nav>
         </header>
@@ -63,17 +74,17 @@
                     <h4>Hi, I am<br /><span class="name">Nikki Kumari</span></h4>
                     <span class="developer">Fullstack Developer<span><br>
                     <span class="contact" id="contact">
-                        <a href="https://www.linkedin.com/in/nikki-kumari-66850b25a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B2FvO%2Fi6STIOnDAr7xfZCsA%3D%3D"><img src="assets/icons/LI-In-Bug.png" /></a>
+                        <a href="https://www.linkedin.com/in/nikki-kumari/" target="_blank" rel="noopener"><img src="assets/icons/LI-In-Bug.png" title="linkedIn"/></a>
 
-                        <a href="https://github.com/nikki30j"><img src="assets/icons/github-mark.png" /></a>
+                        <a href="https://github.com/nikki30j" target="_blank" rel="noopener"><img src="assets/icons/github-mark.png" title="github"/></a>
 
-                        <a href="mailto:kumarinikki.30j@gmail.com" target="_blank"><img src="assets/icons/gmail.png" /></a>
+                        <a href="mailto:kumarinikki.30j@gmail.com" target="_blank" rel="noopener"><img src="assets/icons/gmail.png" alt="gmail" title="gmail"/></a>
 
                     </span>
                 </div>
 
                 <div class="image">
-                    <img class="profilePic" src="assets/images/profile_pic.jpeg"/>
+                    <img class="profilePic" src="assets/images/profile_pic.jpeg" title="profile_pic"/>
                 </div>
 
             </div>
@@ -120,7 +131,7 @@
                 <h1>My <span>Projects!</span></h1>
             </div>
             <div class="project">
-                <div class="project-title"><a href="https://nikki30j.github.io/Sorting_visualzier/" target="_blank" style="color: goldenrod;">Sorting Algorithm Visualization | <i>Html, CSS, JavaScript, GitHub</i> &nbsp;&nbsp;<i class="bi bi-box-arrow-up-right"></i></a></div>
+                <div class="project-title"><a rel="noopener" href="https://nikki30j.github.io/Sorting_visualzier/" target="_blank">Sorting Algorithm Visualization | <i>Html, CSS, JavaScript, GitHub</i> &nbsp;&nbsp;<i class="bi bi-box-arrow-up-right"></i></a></div>
                 <div class="project-details">May 2023 - June 2023</div>
                 <ul class="u_list">
                     <li class="list">Constructed an interactive project using JavaScript to demonstrate sorting algorithms through animations</li>
@@ -130,7 +141,7 @@
             </div>
         
             <div class="project">
-                <div class="project-title"><a href="https://nikki30j.github.io/Tic-Toe-Game/ind.html" target="_blank" style="color: goldenrod;">Tic Tac Toe Game | <i>Html, CSS, JavaScript, VS Code, GitHub</i>&nbsp;&nbsp;<i class="bi bi-box-arrow-up-right"></i></a></div>
+                <div class="project-title"><a rel="noopener" href="https://nikki30j.github.io/Tic-Toe-Game/ind.html" target="_blank">Tic Tac Toe Game | <i>Html, CSS, JavaScript, VS Code, GitHub</i>&nbsp;&nbsp;<i class="bi bi-box-arrow-up-right"></i></a></div>
                 <div class="project-details">Feb 2023 - Feb 2023</div>
                 <ul class="u_list">
                     <li class="list">Developed an interactive Tic Tac Toe game for children’s engagement during leisure time</li>
@@ -143,7 +154,7 @@
         </section>
         <hr>
         <footer class="footer" id="footer">
-            <h1 style="color: goldenrod;">Let's Connect</h1>
+            <h1>Let's Connect</h1>
             <p>I'm always eager to connect with like-minded individuals, fellow developers, and potential collaborators. If you have a project idea, want to discuss technology, or simply geek out about coding, feel free to reach out.<br> Together, let's build innovative solutions and make a difference in the digital landscape!</p>
         <p>Thank you for visiting my profile, and I look forward to connecting with you! 😊</p>
         <br>
