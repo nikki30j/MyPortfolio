@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  padding: 2%;
-}
+/* body {
+  padding-left: 2%;
+  padding-right: 2%;
+} */
 
 /* Global Classes Stylings */
 
 .flex {
   display: flex;
 }
-  
+
 .just-cntr {
   justify-content: center;
 }
@@ -45,12 +46,14 @@ a {
 
 header {
   width: 100%;
-  padding: 2vw 0;
-  background-color: #081b29;
+  background-color: #000000;
   color: white;
+  position: fixed;
+  z-index: 1;
 }
 header nav.navbar ul {
   list-style: none;
+  padding-right: 40px;
 }
 
 header nav.navbar ul li a {
@@ -62,31 +65,33 @@ header nav.navbar ul li a {
 
 .brandLogo {
   font-family: inherit;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  margin-left: 12px;
+  /* margin-left: 12px; */
+  padding-left: 25px;
 }
 
 .brandLogo span {
   color: darkgoldenrod;
   font-family: "bold";
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 /*hero*/
 
 .heroBox {
-  background-image: url("/assets/images/yellow_flower.webp");
+  background: url("../assets/images/yellow_flower.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
 }
 .heroCard {
-  background-color: #081b29;;
-  opacity: 0.9;
+  background-color: #081b29;
+  /* opacity: 0.9; */
   margin: 0vh 3vh;
+  height:63vh;
 }
 
 .intro {
@@ -99,7 +104,7 @@ header nav.navbar ul li a {
   color: white;
   margin-bottom: 5%;
 }
-.intro .name{
+.intro .name {
   font-size: 2rem;
 }
 .developer {
@@ -110,9 +115,9 @@ header nav.navbar ul li a {
   line-height: 3rem;
 }
 .passionate span {
-  color: #081b29;;
+  color: #081b29;
 }
-.image img{
+.image img {
   width: 50%;
   height: 90%;
   border-radius: 50%;
@@ -121,24 +126,23 @@ header nav.navbar ul li a {
 }
 
 .contact img {
-  height: 10%;
-  width: 10%;
+  height: auto;
+  width: 6%;
   margin-top: 6vh;
   border-radius: 10%;
 }
 
 /*about section*/
 .about {
-  background-color: #081b29;;
-  padding: 40px;
+  background-color: #081b29;
+  padding: 55px;
   color: white;
-  margin-top: 5vh;
+  /* margin-top: 5vh; */
 }
-.about h1{
+.about h1 {
   color: goldenrod;
   text-align: center;
   font-size: 2.3rem;
-
 }
 
 .about-content {
@@ -164,7 +168,7 @@ header nav.navbar ul li a {
 }
 
 .card {
-  background-color: #081b29;;
+  background-color: #081b29;
   border-radius: 8px;
   box-shadow: 1px 3px 5px rgba(174, 188, 51, 0.377);
   padding: 20px;
@@ -180,47 +184,48 @@ header nav.navbar ul li a {
   font-size: 16px;
 }
 
-
-
 /* skill section */
 
-.skill{
+.skill {
   text-align: center;
   background-color: #081b29;
 }
-.skill h1{
+.skill h1 {
   color: #ededed;
   font-size: 2.3rem;
   font-weight: bolder;
-  margin-top: 5vh;
+  /* margin-top: 5vh; */
+  padding-top: 20px;
 }
-.skill h1 span{
+.skill h1 span {
   color: darkgoldenrod;
 }
 .skill .images {
-  margin-top: 50px;
-  margin-bottom: 80px;
+   margin-top: 50px;
+  /* margin-bottom: 80px; */
+  
 }
-.skill .images img{
+.skill .images img {
   height: 100px;
   margin: 20px;
 }
 /*project*/
-.project{
+.project {
   background-color: #081b29;
+  padding-bottom: 20px;
 }
 
-.projectTitle h1{
+.projectTitle h1 {
   text-align: center;
   color: goldenrod;
   font-size: 2.3rem;
   font-weight: bolder;
-  margin-top: 50px;
-  }
-.projectTitle h1 span{
+  /* margin-top: 50px; */
+  padding-top: 20px;
+}
+.projectTitle h1 span {
   color: goldenrod;
-    
-    }
+}
 
 #project1 {
   display: flex;
@@ -230,14 +235,14 @@ header nav.navbar ul li a {
   text-align: center;
   margin-bottom: 100px;
 }
-#project1 Img{
-padding-right: 100px;
+#project1 Img {
+  padding-right: 100px;
 }
-#project1 img{
+#project1 img {
   width: 500px;
 }
 
-.projectContent{
+.projectContent {
   padding-left: 150px;
   padding-right: 50px;
   text-align: center;
@@ -251,20 +256,18 @@ padding-right: 100px;
   text-align: center;
   margin-bottom: 100px;
 }
-.projectImg2{
+.projectImg2 {
   padding-left: 100px;
 }
-#project2 img{
+#project2 img {
   width: 500px;
 }
 
-.projectContent2{
-
+.projectContent2 {
   padding-right: 150px;
   padding-left: 50px;
   text-align: center;
 }
-
 
 #project3 {
   display: flex;
@@ -275,28 +278,32 @@ padding-right: 100px;
   margin-bottom: 100px;
   background-color: #081b29;
 }
-.projectImg3{
-padding-right: 100px;
+.projectImg3 {
+  padding-right: 100px;
 }
-#project3 img{
+#project3 img {
   width: 500px;
 }
-.projectContent3{
+.projectContent3 {
   padding-left: 150px;
   padding-right: 50px;
   text-align: center;
 }
-.project h3{
+.project h3 {
   color: goldenrod;
-  padding-top: 10px ;
+  padding-top: 10px;
   padding-bottom: 10px;
   font-size: 1.5rem;
   font-weight: 500;
 }
-.project p{
+.project p {
   color: #ededed;
   font-weight: 500;
 }
-
-
-
+footer {
+  background-color: #081b29;
+  color: white;
+  align-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+}

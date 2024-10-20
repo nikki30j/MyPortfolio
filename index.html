@@ -5,21 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nikki | Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
-    
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+<body>
+    <style>
+        body {
+            /* font-family: Arial, sans-serif;
+            margin: 20px; */
+            line-height: 1.6;
+        }
+        h2 {
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+        
+        .project-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding-left: 50px;
+            color: goldenrod;
+        }
+        .project-details {
+            color: #ffffff;
+            padding-left: 50px;
+        }
+        .u_list {
+            margin: 10px 0;
+            padding-left: 70px;
+            color: #ffffff;
+        }
+        .list {
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+    </style>
 
     <div class="container">
         <header class="flex just-btwn align-cntr">
             <div class="brandLogo">
-                <span>N</span>ikki
+                <span>P</span>ortfolio
             </div>
             <nav class="navbar">
                 <ul class="flex just-btwn align-cntr">
                     <li><a href="#about">About</a></li>
                     <li><a href="#skill">Skill</a></li>
                     <li><a href="#project">Project</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#footer">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -29,14 +60,14 @@
             <div class="heroCard flex just-cntr align-cntr">
 
                 <div class="intro">
-                    <h4>Hi,I am<br /><span class="name">Nikki Kumari</span></h4>
-                    <span class="developer">Fullstack Developer<span>
+                    <h4>Hi, I am<br /><span class="name">Nikki Kumari</span></h4>
+                    <span class="developer">Fullstack Developer<span><br>
                     <span class="contact" id="contact">
                         <a href="https://www.linkedin.com/in/nikki-kumari-66850b25a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B2FvO%2Fi6STIOnDAr7xfZCsA%3D%3D"><img src="assets/icons/LI-In-Bug.png" /></a>
 
                         <a href="https://github.com/nikki30j"><img src="assets/icons/github-mark.png" /></a>
 
-                        <a href="mailto:kumarinikki.30j@gmail.com"><img src="assets/icons/gmail.png" /></a>
+                        <a href="mailto:kumarinikki.30j@gmail.com" target="_blank"><img src="assets/icons/gmail.png" /></a>
 
                     </span>
                 </div>
@@ -47,8 +78,8 @@
 
             </div>
         </section>
-
-        <hr>
+<!-- 
+        <hr> -->
         <section class="about" id="about">
             <h1>About</h1>
 
@@ -67,9 +98,6 @@
                 </div>
             </div>
 
-                <h2>Let's Connect:</h2>
-                <p class="pAbout">I'm always eager to connect with like-minded individuals, fellow developers, and potential collaborators. If you have a project idea, want to discuss technology, or simply geek out about coding, feel free to reach out. Together, let's build innovative solutions and make a difference in the digital landscape!</p>
-            <p>Thank you for visiting my profile, and I look forward to connecting with you! 😊</p>
         </section>
         <hr>
         <section class="skill" id="skill">
@@ -91,32 +119,37 @@
             <div class="projectTitle">
                 <h1>My <span>Projects!</span></h1>
             </div>
-            <div class="project" id="project1">
-            <div class="projectContent">
-                <h3>Project 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia inventore sit voluptatem, labore iusto ducimus qui dolorum repellendus doloremque </p>
-            </div >
-            <div class="projectImg"> <img src="./assets/images/image 47.png" alt=""></div>
+            <div class="project">
+                <div class="project-title"><a href="https://nikki30j.github.io/Sorting_visualzier/" target="_blank" style="color: goldenrod;">Sorting Algorithm Visualization | <i>Html, CSS, JavaScript, GitHub</i> &nbsp;&nbsp;<i class="bi bi-box-arrow-up-right"></i></a></div>
+                <div class="project-details">May 2023 - June 2023</div>
+                <ul class="u_list">
+                    <li class="list">Constructed an interactive project using JavaScript to demonstrate sorting algorithms through animations</li>
+                    <li class="list">Implemented support for Merge, Bubble, Quick, Insertion, and Selection Sort</li>
+                    <li class="list">Designed an interactive interface for users to randomize lists and select sorting algorithms for visualization</li>
+                </ul>
             </div>
-            <div class="project" id="project2">
-                <div class="projectImg2"> <img src="./assets/images/Screenshot 2022-07-12 at 3.44 1.png" alt=""></div>
-                <div class="projectContent2">
-                    <h3>Project 2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia inventore sit voluptatem, labore iusto ducimus qui dolorum repellendus doloremque  </p>
-                </div>
-            </div>
-            <div class="project" id="project3">
-                <div class="projectContent3">
-                    <h3>Project 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia inventore sit voluptatem, labore iusto ducimus qui dolorum repellendus doloremque </p>
-                </div>
-                <div class="projectImg3"> <img src="./assets/images/image 48.png" alt=""></div>
+        
+            <div class="project">
+                <div class="project-title"><a href="https://nikki30j.github.io/Tic-Toe-Game/ind.html" target="_blank" style="color: goldenrod;">Tic Tac Toe Game | <i>Html, CSS, JavaScript, VS Code, GitHub</i>&nbsp;&nbsp;<i class="bi bi-box-arrow-up-right"></i></a></div>
+                <div class="project-details">Feb 2023 - Feb 2023</div>
+                <ul class="u_list">
+                    <li class="list">Developed an interactive Tic Tac Toe game for children’s engagement during leisure time</li>
+                    <li class="list">Updated text in real time to display turns, highlight wins, and prevent further moves</li>
+                    <li class="list">Employed an efficient array-based system to track cell states and implement winning condition logic</li>
+                    <li class="list">Implemented a smooth board reset feature for a seamless transition to new games</li>
+                </ul>
             </div>
     
         </section>
         <hr>
-        <footer class="footer">
-            
+        <footer class="footer" id="footer">
+            <h1 style="color: goldenrod;">Let's Connect</h1>
+            <p>I'm always eager to connect with like-minded individuals, fellow developers, and potential collaborators. If you have a project idea, want to discuss technology, or simply geek out about coding, feel free to reach out.<br> Together, let's build innovative solutions and make a difference in the digital landscape!</p>
+        <p>Thank you for visiting my profile, and I look forward to connecting with you! 😊</p>
+        <br>
+        <br>
+        <hr>
+        <p style="background-color: black;">2024-2025 &#169; copyright | All right reserved to Nikki Kumari | Designed and developed by Nikki Kumari <br></p>
         </footer>
 
     </div>
